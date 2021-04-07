@@ -5,31 +5,49 @@
 #home {
     background-color: #B82787;
     width: 360px;
-    height: 1000px;
+    height: 760px;
+}
+.mapimage{
+    margin-left: 15px;
+}
+
+
+#contact {
+    display: flex;
+    font-size: 15px;
+    background-color: blueviolet;
+    justify-content: center;
+    width: 100%;
+    margin-right: 50px;
+
+
 }
 .flexContainer{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 70px;
 }
 .description{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    padding: 100px 55px 0px 55px;
+    padding:60px 40px 0px 65px;
 }
 .rsDesc{
     font-size: 15px;
     color:white;
 }
 .rsTitle{
-    color:white;
-    margin-bottom: 20px;
+    font-family: 'salsa';
+    color: #D4B0D9;
+    margin-left: 25px;
+
+    
 }
 .buttonHome{
-    background-color:#B3E5FC;
+    background-color:#D4B0D9;
     width: 200px;
     height: 35px;
     margin:12px;
@@ -37,7 +55,7 @@
     font-size:20px;
     border-radius: 5px;
     border-color: transparent;
-    color:#B82787;
+    color: rgb(70, 26, 105);
 }
 .buttonHome:hover{
     border-color: white;
@@ -69,10 +87,11 @@ font-family: 'Lato', sans-serif;
 
 .form-register {
     width: 300px;
-    height: 360px;
-    background:whitesmoke;
+    height: 460px;
     padding: 40px 70px 40px 75px;
+    background-color:whitesmoke;
     margin: auto;
+    margin-right: 10;
     margin-top: 20px;
     border-radius: 4px;
     color: white;
@@ -120,47 +139,17 @@ font-family: 'Lato', sans-serif;
     height: 35px;
    }
 
-#socialIcons{
+.socialmi{
     position:relative;
     background-color:transparent;
     width: 25px;
     height: 25px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .btn-r{
     border-color: transparent;
     background: transparent;
 }
- /*codigo de los iconos de registro*/
- /*
-.socialIcons{
-   height: 25px;
-   width: 25px;
-   border-color: transparent;
-   margin-right: -0px;
-   margin-bottom: 8px;
-   
-}
-   
-#facebookBtn{
-    height: 25px;
-    width: 25px;
-    
-}
-#googleBtn{
-    height: 25px;
-    width: 25px;
-}
-#TwitterBtn{
-    height: 25px;
-    width: 25px;
-}*/
-/*aqui termina codigo de los iconos de registro*/
-
-
-
-
-/* Formulario de Iniciar sesión */
 
 .formLogIn{
 width: 300px;
@@ -217,7 +206,7 @@ header label:hover{
     background-color: #B82787;
 }
 .imghead{
-    max-width: 60px;
+    max-width: 40px;
     
 }
 /*contenedor editar publicacion*/
@@ -282,23 +271,21 @@ font-size: 5px;
 }
 
 /*boton de cerrar sesion*/
-.btnEnd {
-    background-color:black;
-    width: 2em;
-    height: 2em;
-    border-color: transparent;
-}
-.btnEnd  img{
-    margin-left: 120px;
-    margin-bottom: 15px;
-    outline: none;
-    width: 2em;
-    height: 2em;
-    position:-webkit-sticky;
-    position: sticky;
-
+ #btnEnd {
+    background-color:#B82787;
+    border: none;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     
-   
+}
+
+
+.exitbtn{
+    background-color: #B82787;
+    width:30px;
+    height: 30px;
+    border-color: transparent;
 }
 
 .postContainer2{

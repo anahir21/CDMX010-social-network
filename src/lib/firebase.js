@@ -1,4 +1,3 @@
-
 const firebaseConfig = {
     apiKey: "AIzaSyCZU80N-XD_ez5CMvqUxsqPEnkTOifQLRU",
     authDomain: "social-network-c9af4.firebaseapp.com",

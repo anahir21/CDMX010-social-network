@@ -15,9 +15,9 @@ export const sign = (target) => {
 <p id="pRegistro">ó registrate con<p>
 
 <div class="socialIcons">
-<button  id="facebookBtn"><img src="../Assets/iconoFB.png"></button>
-<button  id="googleBtn"><img src="../Assets/iconoGM.png"></button>
-<button   id="TwitterBtn"><img src="../Assets/iconoTR.png"></button>
+<button id="facebookBtn"><img class="socialmi" src="../Assets/iconoFB.png"></button>
+<button id="googleBtn" ><img class="socialmi" src="../Assets/iconoGM.png"></button>
+<button id="TwitterBtn"><img class="socialmi" src="../Assets/iconoTR.png"></button>
 </div>
 <p id="volverLogin">¿Ya tengo una cuenta?<p>
 </section>
@@ -43,7 +43,7 @@ const reviewMail = (valor)=>{
     const password = document.getElementById('password').value;
     createUser(email, password);
   });
-  const btnGoogle = document.getElementById('google-btn');
+  const btnGoogle = document.getElementById('googleBtn');
   btnGoogle.addEventListener('click', (e) => {
     authGoogle();
     onNavigate('/wall');

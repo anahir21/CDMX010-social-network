@@ -5,9 +5,9 @@ export const wall = (target) => {
 <head>
 <div class= "headpost">
 <h1></h1>
-<img class="imghead" src="../Assets/logo.png">
+<img class="imghead" src="../Assets/map.png">
 
-<button class="btnEnd" id="btnEnd"><img src="../Assets/iconologout.png"></button>
+<button id="btnEnd"><img class="exitbtn" src="../Assets/exit.png"></button>
 
 </div>
 </head>
@@ -19,7 +19,7 @@ export const wall = (target) => {
 placeholder="titulo de tu post">
 <textarea id="postDescription" row="10" class="form-control"
 placeholder="Escribe un post"></textarea>
-<button class="btnpost" id="btnpost" > Comparte! </button>
+<button class="btnpost" id="btnPost" > Comparte! </button>
 </div> 
 
 <div class= "post">
@@ -116,7 +116,7 @@ placeholder="Escribe un post"></textarea>
            const postToEdit= doc.data();
            form['postTitle'].value = postToEdit.title;
            form['postDescription'].value = postToEdit.posted;
-           form['btnpost'].innerText= 'Actualiza!';  
+           form['btnPost'].innerText= 'Actualiza!';  
            editStatus= true;         
      
   })
@@ -125,7 +125,7 @@ placeholder="Escribe un post"></textarea>
 
 
   })
-  const btnpost = document.getElementById('btnpost');
+  const btnpost = document.getElementById('btnPost');
   btnpost.addEventListener('click', async (e) => {
     console.log(id);
     e.preventDefault();
